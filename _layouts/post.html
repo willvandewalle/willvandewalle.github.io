@@ -4,15 +4,18 @@
 </head>
 <body>
   <div id="container">
-    {% include header.html %}
-  <div id="content">
-    {{content}}
-  </div>
-  <div id="sidebar">
-    <img src="http://placehold.it/100x100" id="avatar"/>
-    <p>Hello! My name is Will. I love to draw, write, build, and otherwise be creative! This is my blog, where I write about those things. Hope you enjoy!</p>
-  </div>
-    {% include footer.html %}
+    <div id="header">
+      {% include header.html %}
+    </div>
+    <div id="content">
+      {{content}}
+    </div>
+    <div id="sidebar">
+      {% include sidebar.html %}
+    </div>
+    <div id="footer">
+      {% include footer.html %}
+    </div>
   </div>
 </body>
 </html>

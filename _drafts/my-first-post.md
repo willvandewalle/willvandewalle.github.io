@@ -5,7 +5,6 @@ category: Writing
 ---
 
 # Hello World
-
 This is my first post using the Jekyll blogging platform.
 SWEEEEEEET!
 

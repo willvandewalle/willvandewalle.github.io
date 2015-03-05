@@ -28,3 +28,9 @@ body {
   padding: 0px 10px 10px 10px;
   text-align: center;
 }
+
+#avatar{
+  border-radius:100%;
+  width:100px;
+  height:100px;
+}

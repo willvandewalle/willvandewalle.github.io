@@ -4,10 +4,8 @@ layout: post
 category: Writing
 ---
 
-# Hello World
-
-This is my first post using the Jekyll blogging platform.
-SWEEEEEEET!
+# Hello World.
+This is my second post using the Jekyll blogging platform.
 
 * Item
 * Another Item

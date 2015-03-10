@@ -2,6 +2,11 @@ defaults:
   -
     scope:
       path: ""
+    values:
+      site_title: "Will's Blog"
+  -
+    scope:
+      path: ""
       type: "posts"
     values:
       layout: "default"

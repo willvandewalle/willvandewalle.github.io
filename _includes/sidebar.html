@@ -1,0 +1,8 @@
+<img src="{{ site.url }}/images/avatar.jpeg" id="avatar"/>
+<p>Hello! My name is Will. I love to draw, write, build, and otherwise be creative! This is my blog, where I write about those things. Hope you enjoy!</p>
+<ul id="nav">
+  <li><a href="{{ site.url }}/about.html">About Me</a></li>
+  {% for category in site.categories %}
+    <li><a href="/{{ category | first }}">{{ category | first | capitalize}}</a></li>
+  {% endfor %}
+</ul>
